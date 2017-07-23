@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.main-wrap {
+    width: 1000px;
+    min-height: 679px;
+    margin: 0 auto;
+    text-align: center;
+    background: url('../img/php-meetup-bg.jpg') top center no-repeat;
+    padding: 50px;
+}
+
+#number-display, #winner-list{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 80px;
+	font-weight: 800;
+	line-height: 1;
+}
+
+div#number-display {
+    display: inline-block;
+    background: #FFF;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    color: #f00;
+    min-width: 180px;
+}
+
+#main-head{
+    font-size: 40px;
+    color: #fff;
+}
+
+#win-heading{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: #FFF;	
+}
+
+ul#winner-list {
+    padding: 0;
+    margin: 0;
+    min-height: 90px;
+}
+	
+#winner-list li{
+	list-style: none;
+	color: #f00;
+	display: inline-block;
+    padding: 0 30px;
+    margin: 0 10px;
+    background: #FFF;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    color: #f00;
+}

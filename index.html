@@ -2,21 +2,35 @@
 <html>
 <head>
 	<title>Lucky Draw</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="js/lucky.js"></script>
 </head>
 <body>
 <div class="main-wrap">
+	<div class="head">
+		<img src="img/php-dev.png" height="100px">
+	</div>
 	<div id="number-display">
-		
+	00
+	</div>
+	
+	<div class="btn-wrap" id="btn-wrap">
+		<button type="button" id="start-btn">Start</button>
+		<button type="button" id="end-btn">Stop</button>
+	</div>	
+	
+	<div>
+		<h1 id="main-head">Door Prize Lucky Draw</h1>
+		<h2 id="win-heading">Winners List</h2>
 	</div>
 	<ul id="winner-list">
 		
 	</ul>
-	<div class="btn-wrap">
-		<button type="button" id="start-btn">Start</button>
-		<button type="button" id="end-btn">End</button>
-		<button type="button" id="clear-btn">Clear</button>
-	</div>	
+	<div id="tail">
+		<h3>Sponsored By</h3>
+		<img src="img/jb.png" height="150px">
+	</div>
+
 </div>
 </body>
 </html>
