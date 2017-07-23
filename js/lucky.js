@@ -1,7 +1,7 @@
 var runLoop = false;
 var minNumber = 1;
 var maxNumber = 130;
-var intervalTime = 200;
+var intervalTime = 100;
 var toselect =2;
 var selectcount=0;
 var selectedVal = [];
